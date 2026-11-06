@@ -1,0 +1,16 @@
+# Local data (kept outside the synced folder, not versioned)
+data/
+*.db
+markdown/
+
+# Python / Airflow
+__pycache__/
+*.pyc
+airflow_venv/
+venv/
+logs/
+airflow.cfg
+*.generated
+
+# Secrets
+.env
